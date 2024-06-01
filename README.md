@@ -5,6 +5,21 @@
 2. Open the project in your IDE aka VSCodium
 3. Ensure that the JDK is properly set up in your IDE.
 
+
+#### Prerequisites
+-------------
+Build-Essential for Debian Based Linux Distros
+`sudo apt install build-essential`
+npm 
+`npm install`
+typescript
+`npm install -g typescript`
+
+### Development
+- To start the development server for the Cosmverse frontend:
+`yarn install`
+`yarn start`
+
 # Cøsmverse
 [![App](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml/badge.svg)](https://github.com/CosmosContracts/Cosmverse/actions/workflows/react.yml)
 
@@ -22,12 +37,6 @@ in `.env.local` add following params:
 ```
 REACT_APP_NETWORK=testnet
 REACT_APP_SLATE_KEY=
-```
-
-Runs the app in the development mode.
-```
-yarn
-yarn start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.     
 The page will reload if you make edits. You will also see any lint errors in the console.
